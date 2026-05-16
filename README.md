@@ -4,7 +4,7 @@ Faceless YouTube content brand. Niche-agnostic. Tagline: **Short. Sharp. Smarter
 
 - 🌐 Live site: https://tazzup.tarserv.com
 - 📺 Channel: https://www.youtube.com/@tazzup
-- 📦 Repo: https://github.com/tariknaeem/tazzup
+- 📦 Repo: https://github.com/afshanahmedtazzup/tazzup
 
 ## What this folder is
 
