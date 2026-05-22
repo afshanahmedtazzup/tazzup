@@ -1,0 +1,14 @@
+[2026-05-22T16:19:59Z] ========== post-next-video starting ==========
+[2026-05-22T16:19:59Z] Posting ep01 — Dad sneaks soda. Son has thoughts. 🥤 #shorts
+[2026-05-22T16:19:59Z] → youtubeuploader -filename /Users/tariknaeem/content/videos/family/ep01/water-rule-veo-v1.mp4 -metaJSON /Users/tariknaeem/projects/tazzup/youtube/manifests/ep01.upload.json
+time=2026-05-22T20:19:59.691+04:00 level=INFO msg="error loading video meta data: error parsing file \"/Users/tariknaeem/projects/tazzup/youtube/manifests/ep01.upload.json\": json: cannot unmarshal string into Go struct field VideoMeta.tags of type []string"
+[2026-05-22T16:19:59Z] ❌ upload returned no Video ID — marking failed
+[2026-05-22T16:20:42Z] ========== post-next-video starting ==========
+[2026-05-22T16:20:42Z] Posting ep01 — Dad sneaks soda. Son has thoughts. 🥤 #shorts
+[2026-05-22T16:20:42Z] → youtubeuploader -filename /Users/tariknaeem/content/videos/family/ep01/water-rule-veo-v1.mp4 -metaJSON /Users/tariknaeem/projects/tazzup/youtube/manifests/ep01.upload.json
+Uploading file "/Users/tariknaeem/content/videos/family/ep01/water-rule-veo-v1.mp4"
+Progress:  93.39 Mbit/s (11.13 MiB/s), 1104k / 18102k (6.1%) ETA   1s, Elapsed 0s                                                                                 Progress:  23.84 Mbit/s ( 2.84 MiB/s), 3280k / 18102k (18.1%) ETA   5s, Elapsed 1s                                                                                  Progress:  71.46 Mbit/s ( 8.52 MiB/s), 17472k / 18102k (96.5%) ETA   0s, Elapsed 2s                                                                                   Progress:  52.47 Mbit/s ( 6.26 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 3s
+Upload successful! Video ID: i_ZufeMW2aE
+Uploading thumbnail "/Users/tariknaeem/content/thumbnails/family/ep01.jpg"...
+                                                                                    Progress:  38.48 Mbit/s ( 4.59 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 4s                                                                                    Progress:  38.48 Mbit/s ( 4.59 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 5s                                                                                    Progress:  38.48 Mbit/s ( 4.59 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 6s                                                                                    Progress:  38.48 Mbit/s ( 4.59 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 7s                                                                                    Progress:  38.48 Mbit/s ( 4.59 MiB/s), 18102k / 18102k (100.0%) ETA   0s, Elapsed 8sVideo added to playlist "Tazzup Family Shorts" (PLc2sGXAL0ddUs3C3Z5YaTrKXZZ6cWSLYW)
+[2026-05-22T16:20:52Z] ✅ posted ep01 as i_ZufeMW2aE → https://youtu.be/i_ZufeMW2aE

@@ -1,0 +1,105 @@
+{
+  "name": "Tazzup · Daily Video Post",
+  "id": "tazzup-daily-video-post-v1",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "cron-1",
+      "name": "Daily 09:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8765/trigger-post",
+        "method": "POST",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Trigger-Secret",
+              "value": "tazzup-mac-mini-2026"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"trigger\": \"daily\",\n  \"timestamp\": \"{{$now.toISO()}}\"\n}",
+        "options": {
+          "timeout": 10000
+        }
+      },
+      "id": "trigger-post-1",
+      "name": "Trigger Host Post",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "amount": 3,
+        "unit": "minutes"
+      },
+      "id": "wait-1",
+      "name": "Wait 3 min",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [680, 300],
+      "webhookId": "tazzup-daily-post-wait"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8765/health",
+        "method": "GET",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "health-1",
+      "name": "Probe Health",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const ts = new Date().toISOString();\nreturn [{\n  json: {\n    summary: `Tazzup daily video post fired at ${ts}`,\n    note: 'Upload runs in background on the host. Check ~/projects/tazzup/youtube/post-log.log for the YouTube URL, and post-queue.json for queue state.'\n  }\n}];"
+      },
+      "id": "summary-1",
+      "name": "Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    }
+  ],
+  "connections": {
+    "Daily 09:00": {
+      "main": [[{"node": "Trigger Host Post", "type": "main", "index": 0}]]
+    },
+    "Trigger Host Post": {
+      "main": [[{"node": "Wait 3 min", "type": "main", "index": 0}]]
+    },
+    "Wait 3 min": {
+      "main": [[{"node": "Probe Health", "type": "main", "index": 0}]]
+    },
+    "Probe Health": {
+      "main": [[{"node": "Summary", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {"executionOrder": "v1"},
+  "active": false
+}
