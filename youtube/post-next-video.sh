@@ -65,11 +65,10 @@ if [[ ! -f "$VIDEO" ]]; then
   exit 1
 fi
 
-# Build the youtubeuploader metaJSON. Privacy starts as `unlisted` for the
-# first 24 hours so any catastrophic miss can be fixed before it's indexed;
-# you can change this via env DEFAULT_PRIVACY=public if you want to skip the
-# soft-launch window.
-PRIVACY="${DEFAULT_PRIVACY:-unlisted}"
+# Build the youtubeuploader metaJSON. Videos publish `public` so they're
+# eligible for search, feed, and the Shorts shelf; override per-run with
+# DEFAULT_PRIVACY=unlisted for a soft-launch window if ever needed.
+PRIVACY="${DEFAULT_PRIVACY:-public}"
 META_FILE="$META_DIR/$ID.upload.json"
 # youtubeuploader expects tags as a JSON []string, not a comma-separated string.
 TAGS_JSON=$(echo "$TAGS" | jq -R 'split(",") | map(gsub("^ +| +$"; ""))')

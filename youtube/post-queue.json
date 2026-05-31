@@ -16,39 +16,48 @@
     },
     {
       "id": "ep02",
-      "status": "pending",
+      "status": "posted",
       "videoPath": "/Users/tariknaeem/content/videos/family/ep02/book-battle-v1.mp4",
       "thumbPath": "/Users/tariknaeem/content/thumbnails/family/ep02.jpg",
       "title": "\"The algorithm KNOWS me, Mom.\" 📚 #shorts",
       "description": "Tablet down. Book up. The Book Battle.\nA Tazzup family Short.\n\nKid books we love:\n- Dragons Love Tacos: https://www.amazon.com/dp/0803736800?tag=tazzup20-20\n- The Day the Crayons Quit: https://www.amazon.com/dp/0399255370?tag=tazzup20-20\n\n#shorts #reading #parenting #screenfreekids #booksforkids #goodhabits #familytime #parenttok #wholesome #tazzup",
-      "tags": "reading,books,kids,parenting,screen time,family,wholesome,animated,kid friendly,good habits"
+      "tags": "reading,books,kids,parenting,screen time,family,wholesome,animated,kid friendly,good habits",
+      "postedAt": "2026-05-23T05:00:11Z",
+      "youtubeId": "1HFp04oSwV0",
+      "youtubeUrl": "https://youtu.be/1HFp04oSwV0"
     },
     {
       "id": "ep03",
-      "status": "pending",
+      "status": "failed",
       "videoPath": "/Users/tariknaeem/content/videos/family/ep03/coin-jar-v1.mp4",
       "thumbPath": "/Users/tariknaeem/content/thumbnails/family/ep03.jpg",
       "title": "Save. Spend. Share. 🪙 #shorts",
       "description": "Three jars. One genius idea. Teaching kids about money the Tazzup way.\nA Tazzup family Short.\n\nKid-friendly piggy banks + money jars:\n- Save/Spend/Share jars: https://www.amazon.com/s?k=save+spend+share+jars+kids&tag=tazzup20-20\n- Money lessons book: https://www.amazon.com/dp/0763632848?tag=tazzup20-20\n\n#shorts #moneylessons #parenting #kidssavings #financialliteracy #goodhabits #familytime #parenttok #wholesome #tazzup",
-      "tags": "money,saving,kids,parenting,financial literacy,family,allowance,good habits,wholesome"
+      "tags": "money,saving,kids,parenting,financial literacy,family,allowance,good habits,wholesome",
+      "lastError": "no video id returned",
+      "lastTriedAt": "2026-05-23T13:00:00Z"
     },
     {
       "id": "ep04",
-      "status": "pending",
+      "status": "failed",
       "videoPath": "/Users/tariknaeem/content/videos/family/ep04/sharing-test-v1.mp4",
       "thumbPath": "/Users/tariknaeem/content/thumbnails/family/ep04.jpg",
       "title": "\"MINE. Don't anyone breathe on it.\" 🍫 #shorts",
       "description": "Bigger smiles than the candy bar. The Sharing Test.\nA Tazzup family Short.\n\nFun snack containers for sharing:\n- Bento sharing boxes: https://www.amazon.com/s?k=kids+bento+lunch+box&tag=tazzup20-20\n\n#shorts #sharing #parenting #kidness #goodhabits #familytime #parenttok #wholesome #tazzup",
-      "tags": "sharing,kindness,kids,parenting,family,wholesome,good habits,emotional intelligence"
+      "tags": "sharing,kindness,kids,parenting,family,wholesome,good habits,emotional intelligence",
+      "lastError": "no video id returned",
+      "lastTriedAt": "2026-05-24T05:00:03Z"
     },
     {
       "id": "ep05",
-      "status": "pending",
+      "status": "failed",
       "videoPath": "/Users/tariknaeem/content/videos/family/ep05/real-apology-v1.mp4",
       "thumbPath": "/Users/tariknaeem/content/thumbnails/family/ep05.jpg",
       "title": "Real apologies fix more than cars. 🚗💔 #shorts",
       "description": "Dad steps on the toy. Son teaches Dad how to apologize. The Real Apology.\nA Tazzup family Short.\n\nEmotional intelligence kids books:\n- The Way I Feel: https://www.amazon.com/dp/1884734715?tag=tazzup20-20\n\n#shorts #apology #emotionalintelligence #parenting #goodhabits #familytime #parenttok #wholesome #tazzup",
-      "tags": "apology,sorry,emotional intelligence,parenting,kids,family,wholesome,communication"
+      "tags": "apology,sorry,emotional intelligence,parenting,kids,family,wholesome,communication",
+      "lastError": "no video id returned",
+      "lastTriedAt": "2026-05-24T13:00:00Z"
     },
     {
       "id": "ep06",
@@ -120,6 +129,12 @@
       "youtubeId": "i_ZufeMW2aE",
       "url": "https://youtu.be/i_ZufeMW2aE",
       "postedAt": "2026-05-22T16:20:52Z"
+    },
+    {
+      "id": "ep02",
+      "youtubeId": "1HFp04oSwV0",
+      "url": "https://youtu.be/1HFp04oSwV0",
+      "postedAt": "2026-05-23T05:00:11Z"
     }
   ]
 }

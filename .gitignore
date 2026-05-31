@@ -3,3 +3,43 @@
 *.tmp
 .DS_Store
 node_modules/
+
+### backup-all standard ignores ###
+# secrets (kept in ~/secrets-vault, NOT pushed)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.keystore
+*.jks
+.npmrc
+*credential*
+service-account*.json
+serviceAccountKey*.json
+google-services.json
+GoogleService-Info.plist
+.git-credentials
+# regenerable (restored via package manager / build)
+node_modules/
+.next/
+dist/
+build/
+.dart_tool/
+.gradle/
+Pods/
+DerivedData/
+__pycache__/
+*.pyc
+venv/
+.venv/
+.expo/
+*.apk
+*.app.dill
+# large model weights / media >100MB (re-download via RESTORE_MODELS.sh)
+*.onnx
+*.pth
+*.bin
+*.ckpt
+*.safetensors

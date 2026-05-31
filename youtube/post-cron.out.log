@@ -1,0 +1,15 @@
+[2026-05-23T05:00:04Z] ========== post-next-video starting ==========
+[2026-05-23T05:00:04Z] Posting ep02 — "The algorithm KNOWS me, Mom." 📚 #shorts
+[2026-05-23T05:00:04Z] → youtubeuploader -filename /Users/tariknaeem/content/videos/family/ep02/book-battle-v1.mp4 -metaJSON /Users/tariknaeem/projects/tazzup/youtube/manifests/ep02.upload.json
+Uploading file "/Users/tariknaeem/content/videos/family/ep02/book-battle-v1.mp4"
+Progress:  35.65 Mbit/s ( 4.25 MiB/s), 1136k / 16138k (7.0%) ETA   3s, Elapsed 0s                                                                                 Progress:  46.92 Mbit/s ( 5.59 MiB/s), 7776k / 16138k (48.2%) ETA   1s, Elapsed 1s                                                                                  Progress:  81.19 Mbit/s ( 9.68 MiB/s), 16138k / 16138k (100.0%) ETA   0s, Elapsed 2s
+Upload successful! Video ID: 1HFp04oSwV0
+Uploading thumbnail "/Users/tariknaeem/content/thumbnails/family/ep02.jpg"...
+                                                                                    Progress:  55.16 Mbit/s ( 6.58 MiB/s), 16138k / 16138k (100.0%) ETA   0s, Elapsed 3s                                                                                    Progress:  55.16 Mbit/s ( 6.58 MiB/s), 16138k / 16138k (100.0%) ETA   0s, Elapsed 4s                                                                                    Progress:  55.16 Mbit/s ( 6.58 MiB/s), 16138k / 16138k (100.0%) ETA   0s, Elapsed 5sVideo added to playlist "Tazzup Family Shorts" (PLc2sGXAL0ddUs3C3Z5YaTrKXZZ6cWSLYW)
+[2026-05-23T05:00:11Z] ✅ posted ep02 as 1HFp04oSwV0 → https://youtu.be/1HFp04oSwV0
+[2026-05-24T05:00:03Z] ========== post-next-video starting ==========
+[2026-05-24T05:00:03Z] Posting ep04 — "MINE. Don't anyone breathe on it." 🍫 #shorts
+[2026-05-24T05:00:03Z] → youtubeuploader -filename /Users/tariknaeem/content/videos/family/ep04/sharing-test-v1.mp4 -metaJSON /Users/tariknaeem/projects/tazzup/youtube/manifests/ep04.upload.json
+Uploading file "/Users/tariknaeem/content/videos/family/ep04/sharing-test-v1.mp4"
+time=2026-05-24T09:00:03.914+04:00 level=INFO msg="error making YouTube API call: Post \"https://youtube.googleapis.com/upload/youtube/v3/videos?alt=json&notifySubscribers=true&part=snippet&part=status&part=localizations&part=recordingDetails&prettyPrint=false&uploadType=multipart\": oauth2: \"invalid_grant\" \"Token has been expired or revoked.\""
+[2026-05-24T05:00:03Z] ❌ upload returned no Video ID — marking failed
